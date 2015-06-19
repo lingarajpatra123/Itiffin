@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_15dp"
+            android:layout_marginRight="@dimen/pad_15dp"
+            android:layout_marginTop="@dimen/pad_15dp"
+            android:baselineAligned="false"
+            android:longClickable="false"
+            android:background="#ffffffff"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY ALERTS"
+                android:id="@+id/textView6"
+                android:textColor="#000000"
+                android:textSize="30sp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp" />
+
+
+
+
+
+
+
+                       <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                           android:layout_marginTop="170dp">
+
+                           <ImageView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:id="@+id/imageView3"
+                               android:layout_gravity="center"
+                               android:src="@drawable/circle" />
+
+                           <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You have no alerts currently"
+                    android:id="@+id/textView81"
+                    android:textColor="#ff949699"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center" />
+
+                       </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/orderclick"
+                android:layout_marginTop="110dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="REFRESH"
+                    android:id="@+id/button5"
+                    android:background="#ff95979a"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginRight="10dp" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:layout_marginBottom="4dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL US"
+                android:id="@+id/button9"
+                android:background="#ff95979a"
+                android:layout_marginRight="8dp"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:layout_weight="1"
+                android:clickable="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY PLAN"
+                android:id="@+id/button8"
+                android:background="#ff95979a"
+                android:textSize="26sp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:clickable="true" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

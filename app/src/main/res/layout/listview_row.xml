@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  >
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&quot;550 Kcal&quot; Wellness Meals Veg"
+                    android:id="@+id/textView3"
+                    android:layout_marginTop="@dimen/pad_10dp"
+                    android:layout_marginLeft="@dimen/pad_10dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt_14sp"
+                    />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="6"
+                    android:layout_marginTop="@dimen/pad_10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Monthly:"
+                        android:id="@+id/textView4"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_12sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rs"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/txt_12sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1800"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/txt_12sp"
+                        android:layout_marginLeft="-12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Weekly:"
+                        android:id="@+id/textView5"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/txt_12sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rs"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/txt_12sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="525"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="-12dp"
+                        android:textSize="@dimen/txt_12sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pad_10dp"
+                    android:layout_marginBottom="@dimen/pad_10dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView"
+                        android:text="Add to Food Cart"
+                        android:layout_marginLeft="@dimen/pad_10dp"
+                        android:textSize="@dimen/txt_16sp"
+                        android:background="@drawable/add_blank"
+                        android:textColor="@color/white"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.22">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imagetray"
+                    android:background="@drawable/meals"
+                    android:layout_marginRight="@dimen/pad_15dp"
+                    android:layout_marginTop="@dimen/pad_10dp"
+                    android:layout_marginBottom="@dimen/pad_5dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/line_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/pad_5dp"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/pad_10dp"
+
+            android:weightSum="1">
+            <View
+                android:id="@+id/currentTimeLineView1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/pad_1dp"
+                android:background="@color/gbtn"
+                android:layout_weight="0.01"/>
+
+
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>

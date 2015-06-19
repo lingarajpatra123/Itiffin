@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+/*BMIcalc
+    <string name="age">Age</string>
+    <string name="enter_age"> Enter your Age</string>
+    <string name="weight">Weight</string>
+    <string name="enter_weight"> Enter your Weight</string>
+    <string name="height">Height</string>
+    <string name="enter_height"> fgtpasswor your Height</string>
+    <string name="bmicalc">BMI CALC</string>
+    <string name="bmi">BMI </string>
+    <string name="btnnext">NEXT</string>
+    <string name="EmptyString"></string>
+    <string name="ideal_weight">IDEAL WEIGHT</string>
+    <string name="ideal_bmi">IDEAL BMI</string>
+    <string name="fgtpassword">FORGOT PASSWORD</string>
+    <string name="regsignup">SIGN UP</string>
+    <string name="waist">Waist</string>
+    <string name="enter_waist">Enter your Waist</string>
+    <string name="wthratio">GO TO STE P 3</string>
+    <string name="Rs">\u20B9</string>
+
+
+    <string name="activity">Activity Level</string>
+
+    <string name="extremelyinactive">Extremely Inactive</string>
+    <string name="sedentary">Sedentary</string>
+    <string name="moderatelyactive">Moderately Active</string>
+    <string name="vigorouslyactive">Vigorously Active</string>
+    <string name="extremelyactive">Extremely Active</string>
+
+    <string name="summary">Summary</string>
+
+    \n* --------SHIPPING ADDRESS PAGE STRING'S-------- \n
+
+    <string name="Name">Name</string>
+    <string name="Mobile">Mobile</string>
+    <string name="Add1">Address 1</string>
+    <string name="Add2">Address 2</string>
+    <string name="add_n_add">Add New Address</string>
+    <string name="Shipp_add">SHIPPING ADDRESS</string>
+    <string name="item">Item</string>
+    <string name="price">Price</string>
+    <string name="qty">Qty</string>
+    <string name="kcal550">"550Kcal" Wellness Meals Rs 1800</string>
+    <string name="kcal550v">"550Kcal" Wellness Meals Rs 525</string>
+    <string name="sub_total">SUBTOTAL</string>
+    <string name="cont_shop">CONTINUE SHOPPING</string>
+    <string name="check_out">CHECKOUT</string>
+    <string name="CU">CALL US</string>
+    <string name="MP">MY PLAN</string>
+
+
+
+    \n* --------SHIPPING ADDRESS PAGE END -------- \n
+
+
+
+
+
+    <string name="neck">Neck</string>
+    <string name="enter_neck">Enter your Neck</string>
+    <string name="hip">Hip</string>
+    <string name="enter_hip">Enter your Hip</string>
+    <string name="bodyfatpercentage">GO TO STEP 4</string>
+
+    <string name="wellness_calculator">Wellness Calculator</string>
+
+
+    <string name="app_name">iTiffin</string>
+    <string name="APP_ID">801117536625809</string>
+    <string name="action_settings">Settings</string>
+    <string name="prev">PREV</string>
+    <string name="next">NEXT >></string>
+    <string name="better">iTiffin</string>
+    <string name="signup">SIGN UP</string>
+    <string name="Start">START</string>
+    <string name="login_me">Login Now</string>
+    <string name="already_reg">Already Registered?</string>
+    <string name="Itiffinlogin">Itiffin Login</string>
+    <string name="wellness_setup">Wellness Setup</string>
+    <string name="forget_pass">Forget Password ?</string>
+    <string name="show_pass">Show Password</string>
+    <string name="start_order">YOUR WELLNESS</string>
+    <string name="hungry">STAY FIT</string>
+    <string name="menu">iTiffin</string>
+    <string name="finish">Finish</string>
+    <string name="skip">SKIP</string>
+    <string name="enter_mail">Enter your E-Mail ID</string>
+    <string name="reenter_mail">Re Enter your E-Mail ID</string>
+    <string name="mobile_no">Enter Your MobileNo(optional)</string>
+    <string name="confimation">Confirmation</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="password">******</string>
+    <string name="mail_sent_successfully"> An Email with the Detail Diet Chart will be send to your registered Email id</string>
+    <string name="back">BACK</string>
+    <string name="Login">LOGIN</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_bmi__weight__screen">BMI_Weight_Screen</string>
+    <string name="current_goal_weight">Current and Goal Weight</string>
+    <string name="enter_current_weight">Current Weight</string>
+    <string name="current_weight_dash"> Kg</string>
+    <string name="enter_goal_weight">Goal Weight</string>
+    <string name="goal_weight_dash">Kg</string>
+    <string name="signin">Already have an account ? Login</string>
+    <string name="order_now">ENTER</string>
+    <string name="sendemail">SEND EMAIL</string>
+    <string name="popular">Popular</string>
+    <string name="newest">Newest</string>
+    <string name="distance">Distance</string>
+    <string name="bmimessage">
+    \n* Eat right to live Healther \n
+     * Workout 30-40 minutes a day \n
+     * Drink 3-4 liter water</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="policy">"Some foods may not be suitable for some people and you should seekmedical advice before beginning any diet.
+\n Although information is presented in good faith and believed to be correct, Itiffin makes no representations or warranties as to its completeness or accuracy and all information, including nutritional values, is used at your risk.
+\n This application is protected by trademark. We reserve the right to anonymously track and report your used of the application.
+\n You may use this application solely for your personal use and msut not use it for any commercial purpose or modify,reproduce or distribute the software in any way without the express written permission from Itiffin."</string>
+    <string name="minimum">Minimum</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="free_dis">Free Delivery</string>
+    <string name="facebook"> FACEBOOK</string>
+    <string name="Google">Google</string>
+    <string name="most_pop">Most Popular</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="about_text">Welcome to the world of advanced nutrition, with a seamless blend of functional ingredients to boost your health in a balanced and delicious tiffin box. We provide high quality nutritious, calorie defined meal plans with specially designed meals to suit your health and wellness requirements. The iTiffin meals are packed in world class packaging material, quality assured on European Standards and delivered fresh to our customer’s doorstep. The contamination proof packaging is done under high quality assurance standards based on the HACCP standards in our kitchens.  Treat yourself to some TLC…Therapeutic Lifestyle Changes to achieve better health and wellness; and at the same time enjoy the pleasure of eating healthy and tasty meals. Our product is made by a team of food and nutrition scientists, expert chefs; delivered by our supply chain experts all set along the robust tenets of precise design.  Enjoy the harmonious balance of nutrients and taste; which help keep your blood sugar under control, develop better immunity, have a healthier heart, help children grow better and achieve optimum nutrition through the iTiffin meal boxes. Healthy combination of fibre, judicious blend of nutrients and taste with the superior benefits of low fat food cooked exclusively in olive oil, is the pleasures of advanced nutrition promised by iTiffin.</string>
+    <string name="contactus">Contact Us</string>
+    <string name="Review">0 Review</string>
+    <string name="img_share">Share</string>
+    <string name="AYR">Add Your Review</string>
+    <string name="accountlbl">Enter your Details</string>
+    <string name="gender_cal_units">GENDER AND UNIT OF MEASUREMENT</string>
+    <string name="gender">Gender</string>
+    <string name="contact_time">Mon -Sat, 9:00 AM to 6:00 PM</string>
+    <string name="email_us">Email : mobisupport@itiffin.in</string>
+    <string name="contactno">Contact Number  : +91 7353230000</string>
+    <string name="diet_goal">Diet Goal</string>
+    <string name="select_goal">Select Goal</string>
+    <string name="male">M</string>
+    <string name="female">F</string>
+    <string name="measurement_units">MEASUREMENT UNITS</string>
+    <string name="pounds">Pounds and Feet/Inches</string>
+    <string name="kilograms">Kilograms and Centimetres</string>
+    <string name="feet">Feet</string>
+    <string name="inch">Inch</string>
+    <string name="maintain_current_waight">Maintain my current weight</string>
+    <string name="slow_weight">Slow weight loss</string>
+    <string name="weight_loss">Weight Loss</string>
+    <string name="wait_gain">Weight Gain</string>
+    <string name="slow_wait_gain">Slow weight gain</string>
+    <string name="body_mass_index">Body Mass Index</string>
+    <string name="body_fat">Body Fat Percentage</string>
+    <string name="body_fat_per">Body Fat Percentage</string>
+    <string name="consultation">Click here  For Consultation</string>
+    <string name="header_message">live longer live stronger : live longer live better : live longer live younger : live longer live well </string>
+    <string name="whr">Waist to Hip Ratio</string>
+    <string name="whr_upper">WAIST TO HIP RATIO</string>
+    <string name="ideal_whr">IDEAL WAIST TO HIP \n lessthan 0.96</string>
+    <string name="waist_to_hip">WAIST TO HIP</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="help_whr"> It is defined as the waist circumference divided by the height. It measures abdominal obesity and therefore can be used as an better indicator of health risks than BMI (Body Mass Index).</string>
+    <string name="lbl_help_body_fat"> Is is defined as the weight of fat divided by the total weight. It is estimated with the US Navy Circumference Method which uses the height and circumferences of waist, neck and hip.</string>
+    <string name="help_topic">HELP TOPICS (Body Mass Index)</string>
+    <string name="help_topics">HELP TOPICS</string>
+    <string name="help_bmi"> It is defined as the body weight divided by the square of the height. It only provides a rough guide since it doesnot take into account a persons build or the composition of the body weight. Therefore it is not well suited for people with a very high or low percentage of muscle mass.</string>
+    <string name="unit_prompt">Choose Unit</string>
+
+    <string name="order_prompt">Select Period</string>
+
+    <string-array name="unit_arrays">
+        <item>FT+IN</item>
+        <item>CM</item>
+   </string-array>
+    <string-array name="unit_arrays2">
+        <item>KG</item>
+        <item>LB</item>
+    </string-array>
+    <string-array name="order_period">
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+    <string-array name="unit_arrays3">
+        <item>IN</item>
+        <item>CM</item>
+    </string-array>
+
+
+
+
+</resources>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="white_smoke">#F7F7F7</color>
+    <color name="white_smoke_dk">#f3f2f2</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#f14242</color>
+    <color name="transparent">#00000000</color>
+    <color name="main_color_yellow">#ffc600</color>
+    <color name="main_color_red">#9a1000</color>
+    <color name="main_color_red_dk">#711307</color>
+    <color name="main_color_gray_dk">#292929</color>
+    <color name="main_color_gray">#b2b2b2</color>
+    <color name="main_color_gray_lt">#e5e5e5</color>
+    <color name="gray_light">#a1a1a1</color>
+    <color name="gray_cart">#e6ecf4</color>
+    <color name="tab_color">#ffffff</color>
+    <color name="blue">#ff3d20ff</color>
+    <color name="darkgray">#A9A9A9</color>
+    <color name="aqua">#00FFFF</color>
+    <item name="darkred" type="color">#FFCC0000</item>
+
+    <color name="Red">#F44336</color>
+    <color name="r1">#FFEBEE</color>
+    <color name="r2">#FFCDD2</color>
+    <color name="r3">#EF9A9A</color>
+    <color name="r4">#E57373</color>
+    <color name="r5">#EF5350</color>
+    <color name="r6">#F44336</color>
+    <color name="r7">#E53935</color>
+    <color name="r8">#D32F2F</color>
+    <color name="r9">#C62828</color>
+    <color name="r10">#B71C1C</color>
+
+
+    <color name="DeepPurple">#673AB7</color>
+    <color name="dp1">#EDE7F6</color>
+    <color name="dp2">#D1C4E9</color>
+    <color name="dp3">#B39DDB</color>
+    <color name="dp4">#9575CD</color>
+    <color name="dp5">#7E57C2</color>
+    <color name="dp6">#673AB7</color>
+    <color name="dp7">#5E35B1</color>
+    <color name="dp8">#512DA8</color>
+    <color name="dp9">#4527A0</color>
+    <color name="dp10">#311B92</color>
+
+
+    <color name="Pink">#E91E63</color>
+    <color name="p1">#FCE4EC</color>
+    <color name="p2">#F8BBD0</color>
+    <color name="p3">#F48FB1</color>
+    <color name="p4">#F06292</color>
+    <color name="p5">#EC407A</color>
+    <color name="p6">#E91E63</color>
+    <color name="p7">#D81B60</color>
+    <color name="p8">#C2185B</color>
+    <color name="p9">#AD1457</color>
+    <color name="p10">#880E4F</color>
+
+
+    <color name="Blue">#2196F3</color>
+    <color name="b1">#E3F2FD</color>
+    <color name="b2">#BBDEFB</color>
+    <color name="b3">#90CAF9</color>
+    <color name="b4">#64B5F6</color>
+    <color name="b5">#42A5F5</color>
+    <color name="b6">#2196F3</color>
+    <color name="b7">#1E88E5</color>
+    <color name="b8">#1976D2</color>
+    <color name="b9">#1565C0</color>
+    <color name="b10">#0D47A1</color>
+
+
+
+    <color name="Purple">#9C27B0</color>
+    <color name="pr1">#F3E5F5</color>
+    <color name="pr2">#E1BEE7</color>
+    <color name="pr3">#CE93D8</color>
+    <color name="pr4">#BA68C8</color>
+    <color name="pr5">#AB47BC</color>
+    <color name="pr6">#9C27B0</color>
+    <color name="pr7">#8E24AA</color>
+    <color name="pr8">#7B1FA2</color>
+    <color name="pr9">#6A1B9A</color>
+    <color name="pr10">#4A148C</color>
+
+    <color name="lightblue">#03A9F4</color>
+    <color name="l1">#E1F5FE</color>
+    <color name="l2">#B3E5FC</color>
+    <color name="l3">#81D4FA</color>
+    <color name="l4">#4FC3F7</color>
+    <color name="l5">#29B6F6</color>
+    <color name="l6">#03A9F4</color>
+    <color name="l7">#039BE5</color>
+    <color name="l8">#0288D1</color>
+    <color name="l9">#0277BD</color>
+    <color name="l10">#01579B</color>
+
+
+    <color name="lime">#CDDC39</color>
+    <color name="lm1">#F9FBE7</color>
+    <color name="lm2">#F0F4C3</color>
+    <color name="lm3">#E6EE9C</color>
+    <color name="lm4">#DCE775</color>
+    <color name="lm5">#D4E157</color>
+    <color name="lm6">#CDDC39</color>
+    <color name="lm7">#C0CA33</color>
+    <color name="lm8">#AFB42B</color>
+    <color name="lm9">#9E9D24</color>
+    <color name="lm10">#827717</color>
+
+    <color name="lm11">#F4FF81</color>
+    <color name="lm12">#EEFF41</color>
+    <color name="lm13">#C6FF00</color>
+    <color name="lm14">#AEEA00</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="g1">#E8F5E9</color>
+    <color name="g2">#C8E6C9</color>
+    <color name="g3">#A5D6A7</color>
+    <color name="g4">#81C784</color>
+    <color name="g5">#66BB6A</color>
+    <color name="g6">#4CAF50</color>
+    <color name="g7">#4CAF50</color>
+    <color name="g8">#43A047</color>
+    <color name="g9">#388E3C</color>
+    <color name="g10">#2E7D32</color>
+
+    <color name="g11">#B9F6CA</color>
+    <color name="g12">#69F0AE</color>
+    <color name="g13">#00E676</color>
+    <color name="g14">#00C853</color>
+
+
+    <color name="amber">#FFC107</color>
+    <color name="a1">#FFF8E1</color>
+    <color name="a2">#FFECB3</color>
+    <color name="a3">#FFE082</color>
+    <color name="a4">#FFD54F</color>
+    <color name="a5">#FFCA28</color>
+    <color name="a6">#FFC107</color>
+    <color name="a7">#FFB300</color>
+    <color name="a8">#FFA000</color>
+    <color name="a9">#FF8F00</color>
+    <color name="a10">#FF6F00</color>
+
+    <color name="a11">#FFE57F</color>
+    <color name="a12">#FFD740</color>
+    <color name="a13">#FFC400</color>
+    <color name="a14">#FFAB00</color>
+
+    <color name="bluegrey">#607D8B</color>
+    <color name="bg1">#ECEFF1</color>
+    <color name="bg2">#CFD8DC</color>
+    <color name="bg3">#B0BEC5</color>
+    <color name="bg4">#90A4AE</color>
+    <color name="bg5">#78909C</color>
+    <color name="bg6">#607D8B</color>
+    <color name="bg7">#546E7A</color>
+    <color name="bg8">#455A64</color>
+    <color name="bg9">#37474F</color>
+    <color name="bg10">#263238</color>
+
+    <color name="black">#000000</color>
+
+    <color name="Deeporange">#FF5722</color>
+    <color name="do1">#FBE9E7</color>
+    <color name="do2">#FFCCBC</color>
+    <color name="do3">#FFAB91</color>
+    <color name="do4">#FF8A65</color>
+    <color name="do5">#FF7043</color>
+    <color name="do6">#FF5722</color>
+    <color name="do7">#F4511E</color>
+    <color name="do8">#E64A19</color>
+    <color name="do9">#D84315</color>
+    <color name="do10">#BF360C</color>
+
+    <color name="do11">#FF9E80</color>
+    <color name="do12">#FF6E40</color>
+    <color name="do13">#FF3D00</color>
+    <color name="do14">#DD2C00</color>
+
+    <color name="Brown">#795548</color>
+    <color name="br1">#EFEBE9</color>
+    <color name="br2">#D7CCC8</color>
+    <color name="br3">#BCAAA4</color>
+    <color name="br4">#A1887F</color>
+    <color name="br5">#8D6E63</color>
+    <color name="br6">#795548</color>
+    <color name="br7">#6D4C41</color>
+    <color name="br8">#5D4037</color>
+    <color name="br9">#4E342E</color>
+    <color name="br10">#3E2723</color>
+
+    <color name="yellow">#FFEB3B</color>
+    <color name="y1">#FFFDE7</color>
+    <color name="y2">#FFF9C4</color>
+    <color name="y3">#FFF59D</color>
+    <color name="y4">#FFF176</color>
+    <color name="y5">#FFEE58</color>
+    <color name="y6">#FFEB3B</color>
+    <color name="y7">#FDD835</color>
+    <color name="y8">#FBC02D</color>
+    <color name="y9">#F9A825</color>
+    <color name="y10">#F57F17</color>
+
+    <color name="y11">#FFFF8D</color>
+    <color name="y12">#FFFF00</color>
+    <color name="y13">#FFEA00</color>
+    <color name="y14">#FFD600</color>
+
+    <color name="teal">#009688</color>
+    <color name="t1">#E0F2F1</color>
+    <color name="t2">#B2DFDB</color>
+    <color name="t3">#80CBC4</color>
+    <color name="t4">#26A69A</color>
+    <color name="t5">#009688</color>
+    <color name="t6">#00897B</color>
+    <color name="t7">#00796B</color>
+    <color name="t8">#00695C</color>
+    <color name="t9">#004D40</color>
+    <color name="t10">#004D40</color>
+
+    <color name="t11">#64FFDA</color>
+    <color name="t12">#64FFDA</color>
+    <color name="t13">#1DE9B6</color>
+    <color name="t14">#00BFA5</color>
+
+    <color name="orange">#FF9800</color>
+    <color name="o1">#FFF3E0</color>
+    <color name="o2">#FFE0B2</color>
+    <color name="o3">#FFCC80</color>
+    <color name="o4">#FFB74D</color>
+    <color name="o5">#FFA726</color>
+    <color name="o6">#FF9800</color>
+    <color name="o7">#FB8C00</color>
+    <color name="o8">#F57C00</color>
+    <color name="o9">#EF6C00</color>
+    <color name="o10">#E65100</color>
+
+    <color name="o11">#FFD180</color>
+    <color name="o12">#FFAB40</color>
+    <color name="o13">#FF9100</color>
+    <color name="o14">#FF6D00</color>
+
+    <color name="Cyan">#00BCD4</color>
+    <color name="c1">#E0F7FA</color>
+    <color name="c2">#B2EBF2</color>
+    <color name="c3">#80DEEA</color>
+    <color name="c4">#4DD0E1</color>
+    <color name="c5">#26C6DA</color>
+    <color name="c6">#00BCD4</color>
+    <color name="c7">#00ACC1</color>
+    <color name="c8">#0097A7</color>
+    <color name="c9">#00838F</color>
+    <color name="c10">#006064</color>
+
+    <color name="c11">#84FFFF</color>
+    <color name="c12">#18FFFF</color>
+    <color name="c13">#00E5FF</color>
+    <color name="c14">#00B8D4</color>
+
+    <color name="grey">#9E9E9E</color>
+    <color name="gr1">#FAFAFA</color>
+
+    <color name="gbtn">#FF949699</color>
+    <color name="gr3">#EEEEEE</color>
+    <color name="gr4">#E0E0E0</color>
+    <color name="gr5">#BDBDBD</color>
+    <color name="gr6">#9E9E9E</color>
+    <color name="gr7">#757575</color>
+    <color name="gr8">#616161</color>
+    <color name="gr9">#424242</color>
+    <color name="gr10">#212121</color>
+
+    <color name="Indigo">#3F51B5</color>
+    <color name="i1">#E8EAF6</color>
+    <color name="i2">#C5CAE9</color>
+    <color name="i3">#9FA8DA</color>
+    <color name="i4">#7986CB</color>
+    <color name="i5">#5C6BC0</color>
+    <color name="i6">#3F51B5</color>
+    <color name="i7">#3949AB</color>
+    <color name="i8">#303F9F</color>
+    <color name="i9">#283593</color>
+    <color name="i10">#1A237E</color>
+
+    <color name="i11">#8C9EFF</color>
+    <color name="i12">#536DFE</color>
+    <color name="i13">#3D5AFE</color>
+    <color name="i14">#304FFE</color>
+
+
+
+</resources>

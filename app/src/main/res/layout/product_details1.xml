@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:measureWithLargestChild="false"
+        android:id="@+id/imgholder"
+        android:baselineAligned="false">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/bg1"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ANTIOXIDANT &quot;550 Kcal&quot; Lunch Meals"
+                android:textSize="@dimen/txt_20sp"
+                android:id="@+id/textView12"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Non Veg"
+                android:id="@+id/nonveg"
+                android:textSize="@dimen/txt_20sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Email to a Friend"
+                android:id="@+id/emailtofriend"
+                android:gravity="right"
+                android:textColor="@color/darkred"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_10dp"
+            android:layout_marginRight="@dimen/pad_10dp"
+            android:layout_marginBottom="@dimen/pad_10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:id="@+id/rup1"
+                android:src="@drawable/slice70"
+                android:layout_gravity="left"
+                android:focusableInTouchMode="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="250.00"
+                android:id="@+id/amount"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000000"
+                android:textIsSelectable="false"
+                android:singleLine="false" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:id="@+id/rup2"
+                android:src="@drawable/slice70"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200.99"
+                android:id="@+id/amount1"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000000"
+                android:textIsSelectable="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:id="@+id/shareimg"
+                android:src="@drawable/share_pn"
+                android:layout_marginLeft="@dimen/pad_10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sharetext"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/pad_10dp"
+                android:layout_marginLeft="0dp"
+                android:text="@string/img_share" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+
+            android:weightSum="3"
+            android:layout_marginLeft="@dimen/pad_10dp"
+            android:layout_marginRight="@dimen/pad_10dp"
+            android:layout_marginTop="@dimen/pad_10dp">
+<LinearLayout
+    android:id="@+id/str"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    >
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:src="@drawable/rate_app_pn" />
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/rate_app_pn"/>
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/rate_app_pn"/>
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/rate_app_pn"/>
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:id="@+id/imageView5"
+                android:src="@drawable/rate_app_pn"/>
+ </LinearLayout>
+            <LinearLayout
+                android:id="@+id/rv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left">
+                <TextView
+                    android:id="@+id/txt_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Review"
+                    android:textSize="@dimen/txt_14sp"
+                    />
+                </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ayr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+                <TextView
+                    android:id="@+id/AYR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/AYR"
+                    android:textSize="@dimen/txt_14sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available only in Bangalore"
+                android:id="@+id/textView13"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="6dp"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="6dp"
+            android:background="#ba09a675"
+          >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 day \n 700"
+                android:lines="2"
+                android:id="@+id/textView14"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7 day \n 850"
+                android:lines="2"
+                android:id="@+id/textView15"
+                android:layout_marginRight="50dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 day \n 2800"
+                android:lines="2"
+                android:id="@+id/textView16"
+                android:layout_marginRight="30dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 day \n 3400"
+                android:lines="2"
+                android:id="@+id/textView17"
+                android:layout_marginRight="20dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Delivery Location"
+                android:id="@+id/textView23"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp">
+            <RadioGroup
+                android:id="@+id/radio_grp_gender"
+                android:layout_width="@dimen/pad_0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_cart"
+                android:checkedButton="@+id/rbbanglore"
+                android:layout_weight="2"
+
+                android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Bangalore"
+                android:id="@+id/rbbanglore" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Pan India"
+                android:id="@+id/rbpanindia" />
+        </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Availability: In Stock"
+                android:id="@+id/textView24"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="@dimen/pad_5dp"
+            android:layout_marginLeft="@dimen/pad_10dp"
+            android:layout_marginRight="@dimen/pad_10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Period"
+                android:id="@+id/textView25"
+                android:layout_marginTop="10dp" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/spinner"
+                android:layout_marginLeft="30dp"
+                android:entries="@array/order_period"
+                android:prompt="@string/order_prompt"
+                android:spinnerMode="dropdown"
+
+                android:background="@drawable/slice38" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_10dp"
+            android:layout_marginRight="@dimen/pad_10dp"
+            android:weightSum="3"
+            android:layout_marginTop="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pin Code"
+                android:id="@+id/textView31"
+                android:focusable="true"
+                 />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/txtpincode"
+                android:layout_marginLeft="52dp"
+
+                 />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:background="#FFFFFF"
+            android:layout_marginTop="@dimen/pad_10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADD TO FOOD CART"
+                android:id="@+id/btnaddkart1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:background="#ff949699"
+                android:layout_marginBottom="6dp"
+                android:onClick="onClick"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+
+
+
+            <ExpandableListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:id="@+id/expdescription" />
+
+            <ExpandableListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="HEALTH BENEFTIS"
+                android:id="@+id/exphealthbenifits" />
+
+            <ExpandableListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PRODUCT TAGS"
+                android:id="@+id/expproducttags" />
+
+            <ExpandableListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="REVIEW"
+                android:id="@+id/expreview" />
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:layout_marginTop="@dimen/pad_10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL US"
+                android:id="@+id/btncallus4"
+                android:background="#ff95979a"
+                android:layout_marginRight="2dp"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:layout_gravity="bottom" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY PLAN"
+                android:id="@+id/btnmyplan3"
+                android:background="#ff95979a"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:layout_gravity="bottom" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

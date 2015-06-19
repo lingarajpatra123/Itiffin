@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollviewtop">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="9"
+        android:id="@+id/homebody">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Balanced Meals"
+            android:id="@+id/lblbalancedmeals"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_weight="2"
+            android:layout_marginBottom="@dimen/pad_10dp"
+            android:layout_marginTop="10dp" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" >
+
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:id="@+id/slideleft">
+
+
+                <ImageView android:layout_width="115dp"
+                    android:layout_height="117dp"
+
+                    android:src="@drawable/lunch"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="2dp"
+                    android:onClick="onClick"
+                    android:id="@+id/imglunch" />
+
+                <ImageView android:layout_width="115dp"
+                    android:layout_height="117dp"
+
+                    android:src="@drawable/dinner"
+                    android:layout_marginRight="2dp"
+                    android:onClick="onClick"
+
+                    android:id="@+id/imgdinner" />
+                <ImageView android:layout_width="115dp"
+                    android:layout_height="117dp"
+
+                    android:onClick="onClick"
+
+                    android:src="@drawable/slads"
+                    android:layout_marginRight="2dp"
+                    android:id="@+id/imgsalad" />
+
+                <ImageView android:layout_width="115dp"
+                    android:layout_height="115dp"
+
+                    android:onClick="onClick"
+
+                    android:src="@drawable/lunch"
+                    android:layout_marginRight="2dp"
+                    android:id="@+id/imgicuisine" />
+
+                <ImageView android:layout_width="115dp"
+                    android:layout_height="115dp"
+
+                    android:src="@drawable/dinner"
+                    android:id="@+id/imgccusine"
+                    android:onClick="onClick" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="#ff95979a"
+            android:layout_weight="0.30"
+            android:id="@+id/topproducts"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Products"
+                android:id="@+id/top"
+                android:nestedScrollingEnabled="false"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/scrollView"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="4"
+            android:layout_marginRight="5dp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:id="@+id/toptobotm"
+                android:weightSum="4">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgiatta"
+                    android:src="@drawable/iatta"
+                    android:onClick="onClick"
+                    android:layout_marginTop="-10dp"
+                    android:layout_marginBottom="-15dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgmbox"
+                    android:src="@drawable/mbox"
+                    android:layout_marginTop="-15dp"
+                    android:layout_marginBottom="-15dp"
+                    android:onClick="onClick"
+
+                    android:focusable="false"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgwmeals"
+                    android:onClick="onClick"
+                    android:layout_marginTop="-15dp"
+                    android:layout_marginBottom="-15dp"
+                    android:src="@drawable/wmeals"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgdmeals"
+                    android:onClick="onClick"
+                    android:layout_marginTop="-15dp"
+                    android:layout_marginBottom="-15dp"
+                    android:src="@drawable/dmeals"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.70"
+            android:layout_marginTop="@dimen/pad_12dp"
+            >
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL US"
+                android:layout_marginRight="1dp"
+                android:id="@+id/btncallus"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:background="@color/gbtn"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY PLAN"
+                android:id="@+id/btnmyplan2"
+                android:layout_weight="1"
+                android:layout_marginLeft="1dp"
+                android:background="@color/gbtn"
+                android:onClick="onClick"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
